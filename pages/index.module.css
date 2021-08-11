@@ -1,0 +1,22 @@
+.title {
+  text-align: center;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 50% 1fr 1fr 1fr 1fr;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0.25rem 1rem;
+  font-weight: bold;
+  background-color: rgba(40, 118, 207, 0.467);
+  border-radius: 0.5rem;
+}
+
+.header div {
+  padding: 0.25rem;
+}
+
+.header div:nth-child(2) {
+  text-align: center;
+}
