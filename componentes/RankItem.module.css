@@ -20,7 +20,15 @@
   border-radius: 0.25rem;
 }
 
-.country{
+.country {
   display: flex;
-  
+  align-items: center;
+}
+
+.rank {
+  background: #fff;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.25rem 0;
+  box-shadow: 0 0 10px -3px rgba(0, 0, 0, 1);
 }

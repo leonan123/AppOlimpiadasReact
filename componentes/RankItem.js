@@ -3,7 +3,11 @@ import styles from './RankItem.module.css';
 export default function RankItem(props) {
   return (
     <div className={styles.item}>
-      <div> {props.item.Rank} </div>
+      <div>
+        {' '}
+        {props.item.Rank}
+        <div className={styles.rank}> {props.item.Rank} </div>
+      </div>
       <div className={styles.country}>
         <img
           src={`https://olympics.com/tokyo-2020/olympic-games/resCOMMON/img/flags/${
