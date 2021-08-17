@@ -4,8 +4,6 @@ export default function RankItem(props) {
   return (
     <div className={styles.item}>
       <div>
-        {' '}
-        {props.item.Rank}
         <div className={styles.rank}> {props.item.Rank} </div>
       </div>
       <div className={styles.country}>
