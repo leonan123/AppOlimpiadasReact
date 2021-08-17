@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <h1 className="title"> Quadro de medalhas - Tóquio 2020 </h1>
-      <div> Resultado: {list.lenght}itens</div>
+      <div> Resultado: {list.length}itens</div>
       <div>
         <div className={styles.header}>
           <div> # </div>
